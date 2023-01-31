@@ -11,6 +11,12 @@ https://twitter.com/0day_exploit_/status/1619748668088913920
 💋img src=x onerror=alert(document.domain)//💛
 ```
 
+# Race Condition check
+
+```
+for i in {1..100}; do echo $i; done | xargs -P 25 -I{} curl -sLo /dev/null "https://..." -w "{}. %{http_code} - %{size_download}\n"
+```
+
 # Active Directory
 
 ## AD CS
