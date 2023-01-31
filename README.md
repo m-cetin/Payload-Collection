@@ -1,5 +1,9 @@
 # Payload Collection
 
+# Google Dorking
+
+https://twitter.com/0day_exploit_/status/1619748668088913920
+
 # XSS, SQLi, SSTI, etc.
 
 ``` 
